@@ -1,0 +1,375 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_d94cc7b34360accc1fbd8b6090804ce3 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_d94cc7b34360accc1fbd8b6090804ce3" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_d94cc7b34360accc1fbd8b6090804ce3 = L.map(
+                "map_d94cc7b34360accc1fbd8b6090804ce3",
+                {
+                    center: [51.492836, 7.450745],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 6,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_47019a6d596d6d640fa1cb4c27757230 = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors", "detectRetina": false, "maxNativeZoom": 19, "maxZoom": 19, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            );
+        
+    
+            tile_layer_47019a6d596d6d640fa1cb4c27757230.addTo(map_d94cc7b34360accc1fbd8b6090804ce3);
+        
+    
+            var marker_7782bf1ba3b25030ca2660af8d2227ff = L.marker(
+                [51.492836, 7.450745],
+                {}
+            ).addTo(map_d94cc7b34360accc1fbd8b6090804ce3);
+        
+    
+            var icon_b77ed211aecc78ab02a3cdcb5c406c41 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_7782bf1ba3b25030ca2660af8d2227ff.setIcon(icon_b77ed211aecc78ab02a3cdcb5c406c41);
+        
+    
+        var popup_22028b9641cf49a4a6dcf787dfd32284 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_9267d33a268a6760634a73f92547c4dd = $(`<div id="html_9267d33a268a6760634a73f92547c4dd" style="width: 100.0%; height: 100.0%;">Signal-Iduna Park</div>`)[0];
+                popup_22028b9641cf49a4a6dcf787dfd32284.setContent(html_9267d33a268a6760634a73f92547c4dd);
+            
+        
+
+        marker_7782bf1ba3b25030ca2660af8d2227ff.bindPopup(popup_22028b9641cf49a4a6dcf787dfd32284)
+        ;
+
+        
+    
+    
+            var marker_4926488b3e9d08c152b2176059597a72 = L.marker(
+                [51.553674, 7.067405],
+                {}
+            ).addTo(map_d94cc7b34360accc1fbd8b6090804ce3);
+        
+    
+            var icon_62a0bf8e6e453cbcfb20d9afa778d0e2 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_4926488b3e9d08c152b2176059597a72.setIcon(icon_62a0bf8e6e453cbcfb20d9afa778d0e2);
+        
+    
+        var popup_1687e7e9a8c72e5dfc6e240e90808690 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_5eea76db0042fecb3160e1bb65c6c81a = $(`<div id="html_5eea76db0042fecb3160e1bb65c6c81a" style="width: 100.0%; height: 100.0%;">Veltins Arena</div>`)[0];
+                popup_1687e7e9a8c72e5dfc6e240e90808690.setContent(html_5eea76db0042fecb3160e1bb65c6c81a);
+            
+        
+
+        marker_4926488b3e9d08c152b2176059597a72.bindPopup(popup_1687e7e9a8c72e5dfc6e240e90808690)
+        ;
+
+        
+    
+    
+            var marker_0fc6f41b90f9a470c96d20baf5270a19 = L.marker(
+                [51.260697, 6.734341],
+                {}
+            ).addTo(map_d94cc7b34360accc1fbd8b6090804ce3);
+        
+    
+            var icon_2aeb7646af3e8376f6538634bf643377 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_0fc6f41b90f9a470c96d20baf5270a19.setIcon(icon_2aeb7646af3e8376f6538634bf643377);
+        
+    
+        var popup_41c84ac68ee0b80fa80e04b59d653b05 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_a001cf4bbf93eb5b0111ed208c2d6b2f = $(`<div id="html_a001cf4bbf93eb5b0111ed208c2d6b2f" style="width: 100.0%; height: 100.0%;">Mercur-Spiel Arena</div>`)[0];
+                popup_41c84ac68ee0b80fa80e04b59d653b05.setContent(html_a001cf4bbf93eb5b0111ed208c2d6b2f);
+            
+        
+
+        marker_0fc6f41b90f9a470c96d20baf5270a19.bindPopup(popup_41c84ac68ee0b80fa80e04b59d653b05)
+        ;
+
+        
+    
+    
+            var marker_26da406cf243d4a1ca7a75bc84dc4e0f = L.marker(
+                [50.933505, 6.875117],
+                {}
+            ).addTo(map_d94cc7b34360accc1fbd8b6090804ce3);
+        
+    
+            var icon_1c6b3188416e5f7a086dc875ec8e663f = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_26da406cf243d4a1ca7a75bc84dc4e0f.setIcon(icon_1c6b3188416e5f7a086dc875ec8e663f);
+        
+    
+        var popup_3486badcea40e6352dde5a7f843cd6d8 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_c00afa73602fa4a3f6a30368b4da8dec = $(`<div id="html_c00afa73602fa4a3f6a30368b4da8dec" style="width: 100.0%; height: 100.0%;">Rhein-Energie Stadion</div>`)[0];
+                popup_3486badcea40e6352dde5a7f843cd6d8.setContent(html_c00afa73602fa4a3f6a30368b4da8dec);
+            
+        
+
+        marker_26da406cf243d4a1ca7a75bc84dc4e0f.bindPopup(popup_3486badcea40e6352dde5a7f843cd6d8)
+        ;
+
+        
+    
+    
+            var marker_dc8eadec4b46fa6c68ac81876ef14f62 = L.marker(
+                [50.06861, 8.645415],
+                {}
+            ).addTo(map_d94cc7b34360accc1fbd8b6090804ce3);
+        
+    
+            var icon_0869389a2aea86ca0c83836df6c6da13 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_dc8eadec4b46fa6c68ac81876ef14f62.setIcon(icon_0869389a2aea86ca0c83836df6c6da13);
+        
+    
+        var popup_cabb1eb69315d58d8352dcee89102cfd = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_d18829202d508e5a13dfb227d8df024a = $(`<div id="html_d18829202d508e5a13dfb227d8df024a" style="width: 100.0%; height: 100.0%;">Commerzbank Arena</div>`)[0];
+                popup_cabb1eb69315d58d8352dcee89102cfd.setContent(html_d18829202d508e5a13dfb227d8df024a);
+            
+        
+
+        marker_dc8eadec4b46fa6c68ac81876ef14f62.bindPopup(popup_cabb1eb69315d58d8352dcee89102cfd)
+        ;
+
+        
+    
+    
+            var marker_73ee64a343dc4bb0f1781ae8442776a7 = L.marker(
+                [48.792249, 9.232086],
+                {}
+            ).addTo(map_d94cc7b34360accc1fbd8b6090804ce3);
+        
+    
+            var icon_0629c2289221e41517fd85ffc5248bb3 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_73ee64a343dc4bb0f1781ae8442776a7.setIcon(icon_0629c2289221e41517fd85ffc5248bb3);
+        
+    
+        var popup_a738554dd7c071b0706f079b08e7fa2b = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_cc734c45149b27c5c604e66f75b5b086 = $(`<div id="html_cc734c45149b27c5c604e66f75b5b086" style="width: 100.0%; height: 100.0%;">Mercedes-Benz-Arena</div>`)[0];
+                popup_a738554dd7c071b0706f079b08e7fa2b.setContent(html_cc734c45149b27c5c604e66f75b5b086);
+            
+        
+
+        marker_73ee64a343dc4bb0f1781ae8442776a7.bindPopup(popup_a738554dd7c071b0706f079b08e7fa2b)
+        ;
+
+        
+    
+    
+            var marker_1dbbd5b6d4f7e0950e82f30230015791 = L.marker(
+                [48.219938, 11.625287],
+                {}
+            ).addTo(map_d94cc7b34360accc1fbd8b6090804ce3);
+        
+    
+            var icon_fcb735baec7179bc3d4909c523dc4125 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_1dbbd5b6d4f7e0950e82f30230015791.setIcon(icon_fcb735baec7179bc3d4909c523dc4125);
+        
+    
+        var popup_200023e8c8c0faaae66b7dba86024dc8 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_ae474dc46eeea1d4885d9b2eeddac842 = $(`<div id="html_ae474dc46eeea1d4885d9b2eeddac842" style="width: 100.0%; height: 100.0%;">Allianz Arena</div>`)[0];
+                popup_200023e8c8c0faaae66b7dba86024dc8.setContent(html_ae474dc46eeea1d4885d9b2eeddac842);
+            
+        
+
+        marker_1dbbd5b6d4f7e0950e82f30230015791.bindPopup(popup_200023e8c8c0faaae66b7dba86024dc8)
+        ;
+
+        
+    
+    
+            var marker_bdc5edda1eb6df3e9f69b2d7dffd6d15 = L.marker(
+                [51.346183, 12.350196],
+                {}
+            ).addTo(map_d94cc7b34360accc1fbd8b6090804ce3);
+        
+    
+            var icon_4d855674f85321011cf7ad5b638fa61e = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_bdc5edda1eb6df3e9f69b2d7dffd6d15.setIcon(icon_4d855674f85321011cf7ad5b638fa61e);
+        
+    
+        var popup_eaddc0c21e8315764ceccdb6705a6e1c = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_330224caea26311427d98e79e6d4f2c4 = $(`<div id="html_330224caea26311427d98e79e6d4f2c4" style="width: 100.0%; height: 100.0%;">Red Bull Arena</div>`)[0];
+                popup_eaddc0c21e8315764ceccdb6705a6e1c.setContent(html_330224caea26311427d98e79e6d4f2c4);
+            
+        
+
+        marker_bdc5edda1eb6df3e9f69b2d7dffd6d15.bindPopup(popup_eaddc0c21e8315764ceccdb6705a6e1c)
+        ;
+
+        
+    
+    
+            var marker_29139d1eff90be8814655d80fc7fc196 = L.marker(
+                [52.514516, 13.243269],
+                {}
+            ).addTo(map_d94cc7b34360accc1fbd8b6090804ce3);
+        
+    
+            var icon_79102524819c798c7b727447a8eb4765 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_29139d1eff90be8814655d80fc7fc196.setIcon(icon_79102524819c798c7b727447a8eb4765);
+        
+    
+        var popup_d831aa701f9edaf72dfce9ca1d093deb = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_798b786ea66003b888f4e53c479aa097 = $(`<div id="html_798b786ea66003b888f4e53c479aa097" style="width: 100.0%; height: 100.0%;">Olympiastadion Berlin</div>`)[0];
+                popup_d831aa701f9edaf72dfce9ca1d093deb.setContent(html_798b786ea66003b888f4e53c479aa097);
+            
+        
+
+        marker_29139d1eff90be8814655d80fc7fc196.bindPopup(popup_d831aa701f9edaf72dfce9ca1d093deb)
+        ;
+
+        
+    
+    
+            var marker_7726ff948940ef8f6370dc0487e51f42 = L.marker(
+                [53.587153, 9.898706],
+                {}
+            ).addTo(map_d94cc7b34360accc1fbd8b6090804ce3);
+        
+    
+            var icon_56752e9aab99e350f88709364a0e738e = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_7726ff948940ef8f6370dc0487e51f42.setIcon(icon_56752e9aab99e350f88709364a0e738e);
+        
+    
+        var popup_ad1d4c1e029a61187ccde61c0a25555e = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_78c0ad08caa87c419773a6e93f3bb2da = $(`<div id="html_78c0ad08caa87c419773a6e93f3bb2da" style="width: 100.0%; height: 100.0%;">Volksparkstadion</div>`)[0];
+                popup_ad1d4c1e029a61187ccde61c0a25555e.setContent(html_78c0ad08caa87c419773a6e93f3bb2da);
+            
+        
+
+        marker_7726ff948940ef8f6370dc0487e51f42.bindPopup(popup_ad1d4c1e029a61187ccde61c0a25555e)
+        ;
+
+        
+    
+    
+            var marker_68ef9b8bf9c37840e5c16a48eff5c0c6 = L.marker(
+                [51.492836, 7.450745],
+                {}
+            ).addTo(map_d94cc7b34360accc1fbd8b6090804ce3);
+        
+    
+            var icon_642837366ca942e4165593470fb88764 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_68ef9b8bf9c37840e5c16a48eff5c0c6.setIcon(icon_642837366ca942e4165593470fb88764);
+        
+    
+        var popup_f427f5045e81766014f0fbe82a4b1a51 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_930fc38d94074752d3156af022519e3f = $(`<div id="html_930fc38d94074752d3156af022519e3f" style="width: 100.0%; height: 100.0%;">Signal-Iduna Park</div>`)[0];
+                popup_f427f5045e81766014f0fbe82a4b1a51.setContent(html_930fc38d94074752d3156af022519e3f);
+            
+        
+
+        marker_68ef9b8bf9c37840e5c16a48eff5c0c6.bindPopup(popup_f427f5045e81766014f0fbe82a4b1a51)
+        ;
+
+        
+    
+    
+            var poly_line_4ee5296b5be73ed98ca4e89ffc04c90a = L.polyline(
+                [[51.492836, 7.450745], [51.553674, 7.067405], [51.260697, 6.734341], [50.933505, 6.875117], [50.06861, 8.645415], [48.792249, 9.232086], [48.219938, 11.625287], [51.346183, 12.350196], [52.514516, 13.243269], [53.587153, 9.898706], [51.492836, 7.450745], [51.492836, 7.450745]],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_d94cc7b34360accc1fbd8b6090804ce3);
+        
+</script>
+</html>
